@@ -1,5 +1,6 @@
 var mongoose = require( 'mongoose' );
-var dbURI = 'mongodb://localhost/mekanbul';
+var dbURI = 'mongodb+srv://alainjospind:190702@mekanbul.nzgbkks.mongodb.net/';
+//var dbURI ='mongodb://localhost/mekanbul';
 mongoose.connect(dbURI);
 mongoose.connection.on("connected",function(){
     console.log(dbURI+ "adresindaki  veritabani   baglandi\n")

@@ -1,0 +1,323 @@
+{
+	"info": {
+		"_postman_id": "2d24261d-b70b-483d-af0b-9201a2104b57",
+		"name": "ALAIN JOSPIN D collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50755705",
+		"_collection_link": "https://alainjospind-472290.postman.co/workspace/Alain-Jospin-Dushime's-Workspac~e2dfa856-e134-4ea7-868b-676159d0215f/collection/50755705-2d24261d-b70b-483d-af0b-9201a2104b57?action=share&source=collection_link&creator=50755705"
+	},
+	"item": [
+		{
+			"name": "AddComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/venues",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addVenue",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DelateComment",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/venues/69297d084ae4657cea2da866/comments/693d6fc0b22ccda632723c29",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues",
+						"69297d084ae4657cea2da866",
+						"comments",
+						"693d6fc0b22ccda632723c29"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DelateVenue",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/venues/693d72a9b22ccda632723c41",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues",
+						"693d72a9b22ccda632723c41"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetComment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/venues/69297d084ae4657cea2da866/comments/693d748fb22ccda632723c5f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues",
+						"69297d084ae4657cea2da866",
+						"comments",
+						"693d748fb22ccda632723c5f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/venues/69297eb6a6967b278b89409b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues",
+						"69297eb6a6967b278b89409b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListNearByVenue",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateComment",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "rating",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Updated Author",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"value": "Güncellenmiş yorum metni",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/venues/69297d084ae4657cea2da866/comments/693db400bf014dd4516471f4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues",
+						"69297d084ae4657cea2da866",
+						"comments",
+						"693db400bf014dd4516471f4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVenue",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "b",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "b",
+							"type": "text"
+						},
+						{
+							"key": "foodanddrink",
+							"value": "b",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "day1",
+							"value": "b",
+							"type": "text"
+						},
+						{
+							"key": "open1",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "close1",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "isClosed1",
+							"value": "false",
+							"type": "text"
+						},
+						{
+							"key": "day2",
+							"value": "b",
+							"type": "text"
+						},
+						{
+							"key": "open2",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "close2",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "isClosed",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/venues/69297d084ae4657cea2da866?name=b&address=b&foodanddrink=b&lat=2&long=2&day1=b&open1=2&close1=2&isClosed1=false&day2=b&open2=2&close2=2&isClosed2=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"venues",
+						"69297d084ae4657cea2da866"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "b"
+						},
+						{
+							"key": "address",
+							"value": "b"
+						},
+						{
+							"key": "foodanddrink",
+							"value": "b"
+						},
+						{
+							"key": "lat",
+							"value": "2"
+						},
+						{
+							"key": "long",
+							"value": "2"
+						},
+						{
+							"key": "day1",
+							"value": "b"
+						},
+						{
+							"key": "open1",
+							"value": "2"
+						},
+						{
+							"key": "close1",
+							"value": "2"
+						},
+						{
+							"key": "isClosed1",
+							"value": "false"
+						},
+						{
+							"key": "day2",
+							"value": "b"
+						},
+						{
+							"key": "open2",
+							"value": "2"
+						},
+						{
+							"key": "close2",
+							"value": "2"
+						},
+						{
+							"key": "isClosed2",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
